@@ -1,6 +1,6 @@
 import React from 'react'
 
-function page({params}: {params: {productID: string}}) {
+function ProductDetails({params}: {params: {productID: string}}) {
   return (
     <div>
       Welcome to product {params.productID}
@@ -8,4 +8,4 @@ function page({params}: {params: {productID: string}}) {
   )
 }
 
-export default page
+export default ProductDetails
